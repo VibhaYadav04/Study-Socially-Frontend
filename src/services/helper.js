@@ -1,7 +1,8 @@
 import axios from "axios";
 import { getToken } from "../auth";
 
-export const BASE_URL='http://localhost:5000/api/v1';
+//export const BASE_URL='http://localhost:5000/api/v1';
+export const BASE_URL='http://study-socially-backend-production.up.railway.app/api/v1';
 
 export const myAxios=axios.create({
     baseURL:BASE_URL
